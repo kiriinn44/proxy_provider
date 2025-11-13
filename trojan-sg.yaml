@@ -3,27 +3,27 @@ proxies:
     server: support.udemy.com
     port: 443
     type: trojan
-    password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
+    password: 1f283590-883d-41de-a449-9ea26f0355e6
     skip-cert-verify: true
-    sni: do4.srpcom.online
+    sni: youend.karyna.my.id
     network: ws
     ws-opts:
-      path: /trojanws
+      path: /trojan
       headers:
-        Host: do4.srpcom.online
+        Host: youend.karyna.my.id
     udp: true
   - name: vpn2
-    server: support.udemy.com
+    server:  www.skillacademy.com
     port: 443
     type: trojan
-    password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
+    password: 1f283590-883d-41de-a449-9ea26f0355e6
     skip-cert-verify: true
-    sni: do4.srpcom.online
+    sni: youend.karyna.my.id
     network: ws
     ws-opts:
-      path: /trojanws
+      path: /trojan
       headers:
-        Host: do4.srpcom.online
+        Host: youend.karyna.my.id
     udp: true
   - name: vpn3
     server: support.udemy.com
@@ -31,10 +31,36 @@ proxies:
     type: trojan
     password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
     skip-cert-verify: true
-    sni: support.udemy.com.do4.srpcom.online
+    sni: do4.srpcom.online
     network: ws
     ws-opts:
       path: /trojanws
       headers:
-        Host: support.udemy.com.do4.srpcom.online
+        Host: do4.srpcom.online
+    udp: true
+  - name: vpn4
+    server: wiki.udemy.com
+    port: 443
+    type: trojan
+    password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
+    skip-cert-verify: true
+    sni: do4.srpcom.online
+    network: ws
+    ws-opts:
+      path: /trojanws
+      headers:
+        Host: do4.srpcom.online
+    udp: true
+  - name: vpn5
+    server: support.udemy.com
+    port: 443
+    type: trojan
+    password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
+    skip-cert-verify: true
+    sni: suppot.udemy.com.do4.srpcom.online
+    network: ws
+    ws-opts:
+      path: /trojanws
+      headers:
+        Host: suppot.udemy.com.do4.srpcom.online
     udp: true
