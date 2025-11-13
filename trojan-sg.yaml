@@ -1,9 +1,9 @@
 proxies:
-  - name: Vpn1
-    server: 104.18.214.235
+  - name: vpn1
+    server: support.udemy.com
     port: 443
     type: trojan
-    password: 9f03b2b1-0684-453a-8d1b-3ac291a2036b
+    password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
     skip-cert-verify: true
     sni: do4.srpcom.online
     network: ws
@@ -12,42 +12,29 @@ proxies:
       headers:
         Host: do4.srpcom.online
     udp: true
-  - name: Vpn2
-    server: df.game.naver.com
+  - name: vpn2
+    server: support.udemy.com
     port: 443
     type: trojan
-    password: 9f03b2b1-0684-453a-8d1b-3ac291a2036b
+    password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
     skip-cert-verify: true
-    sni: df.game.naver.com.do4.srpcom.online
+    sni: do4.srpcom.online
     network: ws
     ws-opts:
       path: /trojanws
       headers:
-        Host: df.game.naver.com.do4.srpcom.online
+        Host: do4.srpcom.online
     udp: true
-  - name: Vpn3
-    server: investor.fb.com
+  - name: vpn3
+    server: support.udemy.com
     port: 443
     type: trojan
-    password: 9f03b2b1-0684-453a-8d1b-3ac291a2036b
+    password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
     skip-cert-verify: true
-    sni: investor.fb.com.do4.srpcom.online
+    sni: support.udemy.com.do4.srpcom.online
     network: ws
     ws-opts:
       path: /trojanws
       headers:
-        Host: investor.fb.com.do4.srpcom.online
-    udp: true
-  - name: Vpn4
-    server: ava.game.naver.com
-    port: 443
-    type: trojan
-    password: 9f03b2b1-0684-453a-8d1b-3ac291a2036b
-    skip-cert-verify: true
-    sni: ava.game.naver.com.do4.srpcom.online
-    network: ws
-    ws-opts:
-      path: /trojanws
-      headers:
-        Host: ava.game.naver.com.do4.srpcom.online
+        Host: support.udemy.com.do4.srpcom.online
     udp: true
