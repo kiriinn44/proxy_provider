@@ -1,9 +1,9 @@
 proxies:
   - name: vpn1
-    server: 104.17.3.81
+    server:  104.17.3.81
     port: 443
     type: trojan
-    password: 56b370ad-a6b0-433f-a727-94332159c2fa
+    password: 1f283590-883d-41de-a449-9ea26f0355e6
     skip-cert-verify: true
     sni: youend.karyna.my.id
     network: ws
@@ -12,55 +12,42 @@ proxies:
       headers:
         Host: youend.karyna.my.id
     udp: true
-  - name: vpn2
-    server: xcvip.srpcom.online
-    port: 443
-    type: trojan
-    password: 56b370ad-a6b0-433f-a727-94332159c2fa
-    skip-cert-verify: true
-    sni: youend.karyna.my.id
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: youend.karyna.my.id
-    udp: true
-  - name: vpn3
+  - name: vpn11
     server: 104.17.3.81
     port: 443
     type: trojan
     password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
     skip-cert-verify: true
-    sni: do4.srpcom.online
+    sni: do4.srpcom.cloud
     network: ws
     ws-opts:
       path: /trojanws
       headers:
-        Host: do4.srpcom.online
+        Host: do4.srpcom.cloud
     udp: true
-  - name: vpn4
-    server: xcvip.srpcom.online
-    port: 443
-    type: trojan
-    password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
-    skip-cert-verify: true
-    sni: do4.srpcom.online
-    network: ws
-    ws-opts:
-      path: /trojanws
-      headers:
-        Host: do4.srpcom.online
-    udp: true
-  - name: vpn5
+  - name: vpn12
     server: support.zoom.us
     port: 443
     type: trojan
     password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
     skip-cert-verify: true
-    sni: support.zoom.us.do4.srpcom.online
+    sni: do4.srpcom.cloud
     network: ws
     ws-opts:
       path: /trojanws
       headers:
-        Host: support.zoom.us.do4.srpcom.online
+        Host: do4.srpcom.cloud
+    udp: true
+  - name: vpn21
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
+    skip-cert-verify: true
+    sni: do4.srpcom.cloud
+    network: ws
+    ws-opts:
+      path: /trojanws
+      headers:
+        Host: do4.srpcom.cloud
     udp: true
