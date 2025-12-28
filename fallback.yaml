@@ -1,18 +1,18 @@
 proxies:
-  - name: vpn1
-    server:  104.17.3.81
+  - name: tiktok
+    server: api24-normal.tiktokv.com
     port: 443
     type: trojan
-    password: 1f283590-883d-41de-a449-9ea26f0355e6
+    password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
     skip-cert-verify: true
-    sni: youend.karyna.my.id
+    sni: do4.srpcom.cloud
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojanws
       headers:
-        Host: youend.karyna.my.id
+        Host: do4.srpcom.cloud
     udp: true
-  - name: vpn11
+  - name: edukasi
     server: 104.17.3.81
     port: 443
     type: trojan
@@ -25,29 +25,71 @@ proxies:
       headers:
         Host: do4.srpcom.cloud
     udp: true
-  - name: vpn12
-    server: support.zoom.us
+###################################################
+  - name: id.eduksi
+    server: 104.17.3.81
     port: 443
     type: trojan
-    password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
     skip-cert-verify: true
-    sni: do4.srpcom.cloud
+    sni: cell.karyna.my.id
     network: ws
     ws-opts:
-      path: /trojanws
+      path: /trojan
       headers:
-        Host: do4.srpcom.cloud
+        Host: cell.karyna.my.id
     udp: true
-  - name: vpn21
-    server: investors.spotify.com
+  - name: whatsapp
+    server: 104.18.1.196
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
+    udp: true
+#########################################
+  - name: Vision+
+    server: 104.18.225.52
     port: 443
     type: trojan
     password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
     skip-cert-verify: true
-    sni: do4.srpcom.cloud
+    sni: do4.srpcom.online
     network: ws
     ws-opts:
       path: /trojanws
       headers:
-        Host: do4.srpcom.cloud
+        Host: do4.srpcom.online
+    udp: true
+  - name: freefire
+    server: bcmsuporte.garena.com
+    port: 443
+    type: trojan
+    password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
+    skip-cert-verify: true
+    sni: do4.srpcom.online
+    network: ws
+    ws-opts:
+      path: /trojanws
+      headers:
+        Host: do4.srpcom.online
+    udp: true
+#########################################
+  - name: id.facebook
+    server: investor.fb.com
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
     udp: true
