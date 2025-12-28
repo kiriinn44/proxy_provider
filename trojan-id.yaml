@@ -1,27 +1,183 @@
 proxies:
-  - name: Vpn1
-    server: support.udemy.com
+  - name: tiktok
+    server: api24-normal.tiktokv.com
     port: 443
     type: trojan
-    password: 1f283590-883d-41de-a449-9ea26f0355e6
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
     skip-cert-verify: true
-    sni: youend.karyna.my.id
+    sni: cell.karyna.my.id
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: youend.karyna.my.id
+        Host: cell.karyna.my.id
     udp: true
-  - name: Vpn2
-    server:  support.udemy.com
+  - name: edukasi
+    server: 104.17.3.81
     port: 443
     type: trojan
-    password: 1f283590-883d-41de-a449-9ea26f0355e6
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
     skip-cert-verify: true
-    sni: youend.karyna.my.id
+    sni: cell.karyna.my.id
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: youend.karyna.my.id
+        Host: cell.karyna.my.id
+    udp: true
+  - name: vision+
+    server: 104.18.225.52
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
+    udp: true
+  - name: freefire
+    server: web.poe.garena.com
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
+    udp: true
+  - name: facebook
+    server: investor.fb.com
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
+    udp: true
+  - name: whatsapp
+    server: 104.18.1.196
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
+    udp: true
+  - name: spotify
+    server: investor.spotify.com
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
+    udp: trueproxies:
+  - name: tiktok
+    server: api24-normal.tiktokv.com
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
+    udp: true
+  - name: edukasi
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
+    udp: true
+  - name: vision+
+    server: 104.18.225.52
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
+    udp: true
+  - name: freefire
+    server: web.poe.garena.com
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
+    udp: true
+  - name: facebook
+    server: investor.fb.com
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
+    udp: true
+  - name: whatsapp
+    server: 104.18.1.196
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
+    udp: true
+  - name: spotify
+    server: investor.spotify.com
+    port: 443
+    type: trojan
+    password: 7fd8943c-251d-4a09-94e8-6d94b497f952
+    skip-cert-verify: true
+    sni: cell.karyna.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cell.karyna.my.id
     udp: true
