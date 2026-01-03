@@ -1,6 +1,6 @@
 proxies:
-  - name: whatsapp
-    server: 104.18.1.196
+  - name: tiktok
+    server: api24-normal.tiktokv.com
     port: 443
     type: trojan
     password: 450f4857-8ebf-494f-8b4c-0f83ebff3ab7
